@@ -1,0 +1,74 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(185, 190, 174);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gamecontainer {
+  width: 80%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.839);
+  box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.panel {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(217, 162, 188);
+  justify-content: space-around;
+  align-items: center;
+  
+  
+}
+.opt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.opt h3{
+    color: rgba(60, 57, 58, 0.547);
+}
+.box {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: rgb(213, 63, 158);
+}
+.gamearea {
+ width: 100%;
+ height: calc( 100% - 80px);
+ padding: 5px;
+ display: flex;
+ gap: 10px;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ 
+
+}
+.bubble{
+    height: 50px;
+    width: 50px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+.bubble:hover{
+    background-color: rgb(190, 66, 108);
+}
